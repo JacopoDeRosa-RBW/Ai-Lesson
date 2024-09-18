@@ -10,6 +10,8 @@ namespace AI
 
         public string Id => _id;
 
+        public int RouteLenght => _patrolPoints.Length;
+
         private void OnDrawGizmos()
         {
             Gizmos.color = Color.yellow;

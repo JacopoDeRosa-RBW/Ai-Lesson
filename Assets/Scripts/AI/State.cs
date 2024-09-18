@@ -12,7 +12,7 @@ namespace AI
 
         private AiStateMachine _ownerBrain;
 
-        protected AiStateMachine OwnerBrain => _ownerBrain;
+        public AiStateMachine OwnerBrain => _ownerBrain;
 
         public virtual void EnterState(AiStateMachine owner)
         {

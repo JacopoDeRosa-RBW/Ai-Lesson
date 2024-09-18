@@ -23,6 +23,8 @@ namespace AI
         {
            // Exit current state if not null then set and enter the next state
 
+            Debug.Log("Changing State to: " +  state.name);
+
            if(_currentState) _currentState.ExitState();
 
            _currentState = state;
