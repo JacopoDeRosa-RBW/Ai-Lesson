@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8310cb5dbf234d54f8d1eeea22e8a47f, type: 3}
-  m_Name: TestCirculatState
+  m_Name: Circular_Patrol_State
   m_EditorClassIdentifier: 
   _transitions:
   - _targetState: {fileID: 11400000, guid: 89c13688d935d5a4db78a7a953425f93, type: 2}

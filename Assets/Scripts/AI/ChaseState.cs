@@ -7,10 +7,12 @@ namespace AI
     [CreateAssetMenu(fileName = "New  State", menuName = "AI/States/Chase State")]
     public class ChaseState : State
     {
-        private Transform _target;
-
         [SerializeField] private float _radius;
         [SerializeField] private string _tag = "Player";
+
+        private Transform _target;
+
+        public Transform Target => _target;
 
         public override void EnterState(AiStateMachine owner)
         {

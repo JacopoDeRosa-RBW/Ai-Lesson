@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c9557bf6fa5464fa46ad800a41517e, type: 3}
   m_Name: Chase_State
   m_EditorClassIdentifier: 
-  _transitions: []
+  _transitions:
+  - _targetState: {fileID: 11400000, guid: d7a18bb1e84db1549adcc1c66ec1417a, type: 2}
+    _rule: {fileID: 11400000, guid: f84efa49a566e274b889cd9b04b9a55c, type: 2}
   _radius: 3
   _tag: Player
